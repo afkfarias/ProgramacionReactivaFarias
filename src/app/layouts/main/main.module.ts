@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MainComponent } from './main.component';
 import { SharedModule } from '../../shared/shared/shared.module';
 import { AlumnosModule } from './components/alumnos/alumnos.module';
+import { CursosModule } from './components/cursos/cursos.module';
 
 
 
@@ -13,7 +14,8 @@ import { AlumnosModule } from './components/alumnos/alumnos.module';
   imports: [
     CommonModule,
     SharedModule,
-    AlumnosModule
+    AlumnosModule,
+    CursosModule
   ],
   exports:[    
     MainComponent

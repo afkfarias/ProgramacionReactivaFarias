@@ -5,18 +5,18 @@ import { Observable, delay, of } from 'rxjs';
 const ALUMNOS_DATA: IAlumno[] = [
   {
     id: 1,
-    firstName: 'Naruto',
-    lastName: 'Uzumaki',
-    email: 'naru@test.com',
+    firstName: 'Alejandro',
+    lastName: 'Ferreira',
+    email: 'alejo@test.com',
     gender: 'M',
     createdAt: new Date(),
     deletedAt: null
   },
   {
     id: 2,
-    firstName: 'Sasuke',
-    lastName: 'Uchiha',
-    email: 'sasuke@test.com',
+    firstName: 'María',
+    lastName: 'Pérez',
+    email: 'mape@test.com',
     gender: 'F',
     createdAt: new Date(),
     deletedAt: null

@@ -34,7 +34,13 @@
                     <app-alumnos></app-alumnos> 
                 </div>
             </mat-tab>
-            <mat-tab label="Clases"> Content 2 </mat-tab>
+            <mat-tab label="Cursos">
+              <ng-template matTabContent>
+              <div class="example-large-box">
+                <app-cursos></app-cursos> 
+              </div>
+            </ng-template>
+            </mat-tab>
         </mat-tab-group>
         
       </main>
